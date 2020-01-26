@@ -47,12 +47,12 @@ if (System.env.BINTRAY_USER && System.env.BINTRAY_KEY) {
 			repo = 'maven'
 			name = project.name
 			desc = project.description
-			websiteUrl = 'https://github.com/polycreo/@@your-project@@'
-			issueTrackerUrl = 'https://github.com/polycreo/@@your-project@@/issues'
-			vcsUrl = 'https://github.com/polycreo/@@your-project@@.git'
+			websiteUrl = 'https://github.com/polycreo/polycreo-integration-tests'
+			issueTrackerUrl = 'https://github.com/polycreo/polycreo-integration-tests/issues'
+			vcsUrl = 'https://github.com/polycreo/polycreo-integration-tests.git'
 			licenses = ['Apache-2.0']
 			labels = ['polycreo']
-			githubRepo = 'polycreo/@@your-project@@'
+			githubRepo = 'polycreo/polycreo-integration-tests'
 			version {
 				name = project.version
 				vcsTag = project.version
