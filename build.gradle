@@ -62,11 +62,18 @@ repositories {
 dependencies {
 	implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
 	// implementation 'com.fasterxml.jackson.module:jackson-module-kotlin:2.9.8'
+	implementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'io.github.microutils:kotlin-logging:1.6.26'
+	implementation 'com.willowtreeapps.assertk:assertk-jvm:0.17' // https://www.kotlinresources.com/library/assertk/
+	implementation 'org.polycreo:polycreo-assertk-json:1.0.0-rc3'
+	//implementation 'com.fasterxml.jackson.module:jackson-module-kotlin:2.9.8'
+	implementation 'com.fasterxml.jackson.core:jackson-databind'
+	implementation 'org.flywaydb.flyway-test-extensions:flyway-spring5-test:5.2.4'
+	implementation 'org.polycreo:polycreo-oauth2:1.0.0-rc10'
 
 	// test
-	testImplementation 'org.jetbrains.kotlin:kotlin-reflect'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test:2.0.8.RELEASE'
-	testImplementation 'com.nhaarman:mockito-kotlin:1.6.0'
+	// testImplementation 'org.jetbrains.kotlin:kotlin-reflect'
+	// testImplementation 'com.nhaarman:mockito-kotlin:1.6.0'
 
 	// build
 	detektPlugins 'io.gitlab.arturbosch.detekt:detekt-formatting:1.4.0'
