@@ -76,7 +76,7 @@ dependencies {
 	// testImplementation 'com.nhaarman:mockito-kotlin:1.6.0'
 
 	// build
-	detektPlugins 'io.gitlab.arturbosch.detekt:detekt-formatting:1.4.0'
+	detektPlugins 'io.gitlab.arturbosch.detekt:detekt-formatting:1.5.0'
 }
 
 bootJar {
