@@ -10,7 +10,7 @@ plugins {
 	id 'org.springframework.boot' version '2.2.4.RELEASE'
 
 	// https://github.com/palantir/gradle-git-version
-	id 'com.palantir.git-version' version '0.12.2'
+	id 'com.palantir.git-version' version '0.12.3'
 
 	// code quality plugins
 	id 'jacoco'
