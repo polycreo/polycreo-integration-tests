@@ -15,7 +15,7 @@ plugins {
 	// code quality plugins
 	id 'jacoco'
 	id 'org.jmailen.kotlinter' version '2.3.0'
-	id 'io.gitlab.arturbosch.detekt' version '1.5.1'
+	id 'io.gitlab.arturbosch.detekt' version '1.9.1'
 	id 'org.jetbrains.dokka' version '0.10.1'
 
 }
