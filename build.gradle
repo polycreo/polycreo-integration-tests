@@ -64,7 +64,7 @@ dependencies {
 	// implementation 'com.fasterxml.jackson.module:jackson-module-kotlin:2.9.8'
 	implementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'io.github.microutils:kotlin-logging:1.7.8'
-	implementation 'com.willowtreeapps.assertk:assertk-jvm:0.21' // https://www.kotlinresources.com/library/assertk/
+	implementation 'com.willowtreeapps.assertk:assertk-jvm:0.23' // https://www.kotlinresources.com/library/assertk/
 	implementation 'org.polycreo:polycreo-assertk-json:1.0.0-rc4'
 	//implementation 'com.fasterxml.jackson.module:jackson-module-kotlin:2.9.8'
 	implementation 'com.fasterxml.jackson.core:jackson-databind'
